@@ -2537,34 +2537,34 @@ footer .bottom ul.item li:last-child {
     margin-bottom: 11px;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-rail {
+.sidebar.range .ant-slider .ant-slider-rail {
     background-color: #e9e9e9;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider:hover .ant-slider-track,
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-track {
+.sidebar.range .ant-slider:hover .ant-slider-track,
+.sidebar.range .ant-slider .ant-slider-track {
     background-color: #ff7c5b;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-handle::after {
+.sidebar.range .ant-slider .ant-slider-handle::after {
     background-color: #ff7c5b;
     box-shadow: none;
     width: 15px;
     height: 15px;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider-horizontal .ant-slider-handle {
+.sidebar.range .ant-slider-horizontal .ant-slider-handle {
     inset-block-start: -1px;
 }
 
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider:hover .ant-slider-handle::after,
-.sidebar.range :where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-handle:hover::after,
-:where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-handle:active::after,
-:where(.css-dev-only-do-not-override-j9bb5n).ant-slider .ant-slider-handle:focus::after {
+.sidebar.range .ant-slider:hover .ant-slider-handle::after,
+.sidebar.range .ant-slider .ant-slider-handle:hover::after,
+.ant-slider .ant-slider-handle:active::after,
+.ant-slider .ant-slider-handle:focus::after {
     box-shadow: none;
 }
 
-.sidebar.review :where(.css-dev-only-do-not-override-j9bb5n).ant-rate {
+.sidebar.review .ant-rate {
     font-size: 16px;
     color: #ffab01;
 }
@@ -2885,20 +2885,20 @@ footer .bottom ul.item li:last-child {
 
 
 
-.list-grid-outer :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs-top>.ant-tabs-nav::before {
+.list-grid-outer .ant-tabs-top>.ant-tabs-nav::before {
     border: none;
 }
 
-.list-grid-outer :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-ink-bar {
+.list-grid-outer .ant-tabs .ant-tabs-ink-bar {
     display: none;
 }
 
-.list-grid-outer :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
+.list-grid-outer .ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
     justify-content: end;
     margin-bottom: calc(40px - 16px);
 }
 
-.list-grid-outer :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab-btn {
+.list-grid-outer .ant-tabs .ant-tabs-tab-btn {
     position: relative;
     display: inline-block;
     width: 50px;
@@ -2915,12 +2915,12 @@ footer .bottom ul.item li:last-child {
     text-align: center;
 }
 
-.list-grid-outer :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab+.ant-tabs-tab {
+.list-grid-outer .ant-tabs .ant-tabs-tab+.ant-tabs-tab {
     margin: 0;
 }
 
-.list-grid-outer :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab-btn:hover,
-.list-grid-outer :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+.list-grid-outer .ant-tabs .ant-tabs-tab-btn:hover,
+.list-grid-outer .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
     color: #fff;
     background-color: #ff7c5b;
     box-shadow: 0px 15px 25px 0px rgba(255, 124, 91, 0.3);
@@ -4153,7 +4153,8 @@ footer .bottom ul.item li:last-child {
     background-repeat: no-repeat;
     background-position: center;
 }
-.error-page .error-inner{
+
+.error-page .error-inner {
     text-align: center;
     padding: 230px 0px 244px 0px;
 }
@@ -4203,9 +4204,11 @@ footer .bottom ul.item li:last-child {
     color: #808080;
     font-weight: 500;
 }
+
 .booking-form-outer .process-label li span {
-	margin-right: 10px;
+    margin-right: 10px;
 }
+
 .booking-form-outer .process-label li.current {
     color: #fff;
     background-color: #ff7c5b;
@@ -4252,13 +4255,14 @@ footer .bottom ul.item li:last-child {
 }
 
 .booking-form-outer .processing-form .form-group textarea {
-	height: 170px;
-	resize: none;
+    height: 170px;
+    resize: none;
 }
 
-.booking-form-outer .processing-form .form-group.message-btn{
+.booking-form-outer .processing-form .form-group.message-btn {
     margin-bottom: 0px;
     padding-top: 48px;
     text-align: right;
 }
+
 /* booking Process End */

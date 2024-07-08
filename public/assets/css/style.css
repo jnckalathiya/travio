@@ -2203,7 +2203,6 @@ footer .bottom ul.item li:last-child {
     margin: 0 5px;
     margin-bottom: 10px;
     overflow: hidden;
-    position: relative;
     background: #000;
     border-radius: 10px;
 }

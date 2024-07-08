@@ -141,6 +141,7 @@
     .list-grid-outer .item-shorting .pull h3 {
         font-size: 20;
     }
+
     /* list End */
 }
 
@@ -379,6 +380,13 @@
         padding-right: 0;
     }
 
+    .contactinfo-main .item-inner {
+        margin-bottom: 30px;
+    }
+
+    .contact-outer .item-inner{
+        margin-bottom: 30px;
+    }
 
 }
 
@@ -491,7 +499,7 @@
         width: 100%;
     }
 
-    .photo-gallery :where(.css-dev-only-do-not-override-j9bb5n).ant-image {
+    .photo-gallery .ant-image {
         width: 100%;
     }
 
@@ -503,6 +511,11 @@
         margin: 0 auto;
     }
 
+    .toure-outer .text .info-list li{
+        display: block;
+        width: 100%;
+    }
+
     /* Toure PAges End */
 
     /* Booking Process Start */
@@ -510,6 +523,7 @@
         padding: 70px 0px;
         padding-bottom: 120px;
     }
+
     /* Booking Process End */
 
 
@@ -538,16 +552,16 @@
 
     /* Booking Process */
 
-    .booking-form-outer .process-label li{
+    .booking-form-outer .process-label li {
         width: 100%;
     }
 }
 
 @media (max-width : 480px) {
 
-    .heading{
+    .heading {
         font-size: 30px;
-    line-height: 38px;
+        line-height: 38px;
     }
 
     /* Header Start */
@@ -590,7 +604,7 @@
         justify-content: center;
     }
 
-    .list-grid-outer :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
+    .list-grid-outer .ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
         justify-content: center;
     }
 
